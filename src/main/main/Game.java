@@ -2,8 +2,10 @@ package main;
 
 public class Game {
     
+    private GameWindow gameWindow;
+
     public Game() {
-        System.out.println("I am Alive!");
+        gameWindow = new GameWindow();
     }
 
 }
